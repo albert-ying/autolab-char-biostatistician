@@ -1,13 +1,21 @@
 # Dr. Wei Zhang — Biostatistician
 
-Character for [Autonomous Lab](https://autolab.kejunying.com). A biostatistician collaborator who provides rigorous statistical frameworks and validates analytical approaches.
+Character for [Autonomous Lab](https://autolab.kejunying.com). A biostatistician collaborator who provides rigorous statistical frameworks.
 
-## Install
+## Structure
 
-```bash
-curl -O https://raw.githubusercontent.com/albert-ying/autolab-char-biostatistician/master/character.yaml
+```
+autolab-char-biostatistician/
+├── character.yaml
+└── skills/
+    ├── bayesian-modeling/
+    │   └── SKILL.md          # PyMC, hierarchical models, diagnostics
+    ├── causal-inference/
+    │   └── SKILL.md          # DAGs, IV, DiD, RDD
+    └── model-interpretability/
+        └── SKILL.md          # SHAP, feature importance, debugging
 ```
 
-## Skills
+## License
 
-pymc, statistical-analysis, statsmodels, scikit-learn, shap, scientific-visualization
+Apache 2.0
