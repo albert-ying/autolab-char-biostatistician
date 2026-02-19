@@ -2,6 +2,8 @@
 
 Character for [Autonomous Lab](https://autolab.kejunying.com). A biostatistician collaborator who provides rigorous statistical frameworks.
 
+Skills are auto-learned and validated. Each skill has a `meta.yaml` tracking certification status.
+
 ## Structure
 
 ```
@@ -9,11 +11,14 @@ autolab-char-biostatistician/
 ├── character.yaml
 └── skills/
     ├── bayesian-modeling/
-    │   └── SKILL.md          # PyMC, hierarchical models, diagnostics
+    │   ├── SKILL.md
+    │   └── meta.yaml          # PyMC, hierarchical models, diagnostics
     ├── causal-inference/
-    │   └── SKILL.md          # DAGs, IV, DiD, RDD
+    │   ├── SKILL.md
+    │   └── meta.yaml          # DAGs, IV, DiD, RDD
     └── model-interpretability/
-        └── SKILL.md          # SHAP, feature importance, debugging
+        ├── SKILL.md
+        └── meta.yaml          # SHAP, feature importance, debugging
 ```
 
 ## License
